@@ -1,0 +1,12 @@
+[
+        {
+                "repository": "kernel_asus_sdm660",
+                "target_path": "kernel/asus/sdm660",
+                "branch": "eleven"
+        },
+        {
+                "repository": "vendor_asus",
+                "target_path": "vendor/asus",
+                "branch": "eleven"
+        }
+]
