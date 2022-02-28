@@ -78,11 +78,6 @@ function blob_fixup() {
         "${PATCHELF}" --add-needed "libwfdaudioclient.so" "${2}"
         "${PATCHELF}" --add-needed "libwfdmediautils.so" "${2}"
         ;;
-
-    product/lib64/libdpmframework.so)
-        "${PATCHELF}" --replace-needed "libcutils.so" "libcutils-v29.so" "${2}"
-        "${PATCHELF}" --add-needed "libcutils.so" "${2}"
-        ;;
     esac
 }
 
